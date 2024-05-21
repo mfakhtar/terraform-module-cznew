@@ -11,3 +11,7 @@ locals {
 }
 
 resource "null_resource" "null_fromprivate_registry" {}
+
+terraform {
+  required_version ~= "1.6.0"
+}
